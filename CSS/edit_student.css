@@ -1,0 +1,123 @@
+html{
+  font-size: 62.25%;
+}
+body{
+  background-color: black;
+}
+
+.main1{
+  margin-top: 12rem;
+  margin-left: 45rem;;
+  width: 60rem;
+  height: 50rem;
+  background: beige;
+  border: 1rem solid blue;
+  border-radius: 3rem;
+}
+.fname{
+  display: flex;
+  justify-content: space-around;
+}
+.fname input{
+  background-color: khaki;
+  margin-top: 1.2rem;
+  flex-grow:1;
+  height: 2rem;
+  border-radius: 1rem;
+}
+.fname select{
+  background-color: lightgreen;
+  margin-top: 1.2rem;
+  flex-grow:1;
+  border-radius: 1rem;
+}
+.submit input{
+  margin-top: 1rem;
+  margin-left: 25rem;
+  height: 3rem;
+  color: white;
+  background-color: maroon;
+  border-radius: .9rem;
+}
+@media (max-width:999px) {
+  html{
+    font-size: 45%;
+  }
+}
+
+
+.values{
+    display: block;
+    visibility: visible;
+    background: beige;
+    margin: 1.5rem auto;
+    background: beige;
+    width: 90rem;
+    padding: 1.25rem;
+    border-radius: 1em;
+}
+
+
+
+.values input[type=checkbox]{
+    float: left;
+}
+
+.values input[type=text]{
+    float: left;
+     padding: .5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background: khaki;
+    width: 30%;
+}
+
+.values input[type=tel]{
+    float: left;
+     padding: .5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background: khaki;
+    width: 30%;
+}
+
+.values input[type=date]{
+    float: left;
+     padding: .5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background: khaki;
+    width: 30%;
+}
+
+.values select{
+      width: 30rem;
+           padding: .5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 30%;
+}
+.values .submit input{
+    float: none;
+    width: 7.5%;
+  margin-top: 1rem auto;
+    margin-left: 46.25%;
+  height: 3rem;
+  color: white;
+  background-color: maroon;
+  border-radius: .9rem;
+    box-sizing: border-box;
+}
+.values h1{
+    margin-top: none;
+}
+
+.back img{
+    margin-left: 2.5%;
+    width: 5%;
+    float: left;
+}
+
+#hide1,#hide2,#hide3,#hide4,#hide5,#hide6,#hide7,#hide8,#hide9,#hide10,#hide11{
+    visibility: hidden;
+}

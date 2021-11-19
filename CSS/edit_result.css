@@ -1,0 +1,49 @@
+body{
+    background: black;
+    color: white;
+}
+
+.data{
+    margin: 1.5% 10%;
+    font-size: 125%;
+    width: 80%;
+    display: none;
+}
+
+.links{
+    margin-left: 40%;
+    margin-top: 3%;
+    width: 60%;
+}
+
+a:link{
+    font-size: 135%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+a:visited{
+    font-size: 135%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+a:hover{
+    font-size: 135%;
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+}
+
+a:active{
+    font-size: 135%;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+}
+
+.link{
+    margin-top: 2.5%;
+}
